@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 50px;
+}
+
+img {  
+    position: relative;
+   top: -350px;
+   right: -100px;
+      padding: 100px;
+      float: right ;
+      width: 40%; 
+      height: auto;
+      border-radius: 40%;
+}
+
+.logo{
+  padding: px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+
+  margin-right: 50px;
+}
+
+.nav-links li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: salmon;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header{
+  background-color: aliceblue;
+  padding: 120px;
+  text-align: left; 
+  height: 800px;
+}
+
+.home__title-color{
+ color: blue;
+}
+
+#home__title{
+
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+
+.Hobbies{
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+#photo {
+  padding: 500px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+
+
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
